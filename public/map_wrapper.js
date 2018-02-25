@@ -12,10 +12,9 @@ MapWrapper.prototype.addMarker = function (coords) {
     icon: {
       path: google.maps.SymbolPath.CIRCLE,
       strokeColor: "blue",
-      scale: 10
+      scale: 8
     }
   });
-  // return marker;
 }
 
 MapWrapper.prototype.addClickEvent = function (makeRequest, requestComplete) {
